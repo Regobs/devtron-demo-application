@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3002;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello World from Devtron!',
+    message: 'Hello World from Devtron1!',
     timestamp: new Date().toISOString(),
     hostname: require('os').hostname()
   });
